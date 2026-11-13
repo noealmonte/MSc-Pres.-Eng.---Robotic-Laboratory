@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python packaging & builds
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code (preserve settings & extensions recommendations)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Temporary / Scratch files
+scratch/
+downloads/*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
