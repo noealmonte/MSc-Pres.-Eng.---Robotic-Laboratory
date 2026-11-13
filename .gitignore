@@ -25,7 +25,9 @@ dist/
 
 # Temporary / Scratch files
 scratch/
-downloads/*.zip
+*.zip
+downloads/
+docs/examples/
 
 # OS generated files
 .DS_Store
