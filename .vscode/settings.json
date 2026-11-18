@@ -6,5 +6,9 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true
   },
+<<<<<<< HEAD
   "python-envs.defaultEnvManager": "ms-python.python:system"
+=======
+  "tinymist.exportPdf": "onSave"
+>>>>>>> 305fda33affe5afd61a3cfa54e99eef308b9fac0
 }

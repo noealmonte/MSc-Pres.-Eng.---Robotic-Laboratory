@@ -2,6 +2,8 @@
 
 Ce dépôt contient le code, la documentation et le rapport pour la partie **Robotics** du cours **Control & Automation** (Master of Precision Engineering - BFH / UniBE).
 
+> 📖 **[Guide complet du laboratoire & Cahier des charges du rapport](docs/LAB_GUIDE.md)** : toutes les questions à traiter par session, le protocole expérimental et la check-list pour la remise du rapport final (deadline : 04.01.2027 à 09:00).
+
 ---
 
 ## 🛠️ Configuration rapide pour l'équipe (en 2 minutes)
