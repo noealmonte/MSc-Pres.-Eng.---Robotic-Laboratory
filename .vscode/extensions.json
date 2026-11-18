@@ -4,6 +4,7 @@
     "ms-python.debugpy",
     "charliermarsh.ruff",
     "ms-toolsai.jupyter",
-    "myriad-dreamit.tinymist"
+    "myriad-dreamit.tinymist",
+    "ms-vsliveshare.vsliveshare"
   ]
 }
