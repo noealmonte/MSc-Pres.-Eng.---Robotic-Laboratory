@@ -1,7 +1,7 @@
 = Introduction
 
 == Context and Objectives
-This laboratory report presents the experimental work conducted as part of the *Robotics* component of the *Control and Automation* module in the *Master of Science in Precision Engineering (MPE)* at BFH / UniBE.
+This report presents the experimental laboratory work conducted between November and December 2026 as part of the *Robotics* component of the *Control and Automation* course.
 
 The experimental platform relies on the *Mecademic Meca500* (r4), a micro 6-axis industrial articulated robot arm, equipped with a custom flange-mounted laser tool and monitored by a high-resolution *SVS-Vistek* industrial CMOS camera.
 

@@ -6,20 +6,44 @@ The used robot for this laboratory work is the Meca500 from Mecademic. According
 - dry adhesion gripper
 - pneumatic module
 
+According to all those specifications, the robot could be use in the following indutrial applications:
+- Assembly of microscopic pieces of medical devices
+- Handling of small pieces in PCB assembly
+- Handling of medical samples for testing
 
-Observations: Super silent
+According to @ref:Meca500-brochure the rated payload the robot can carraying is 0.5kg. But in certain conditions the robot can handle a mass until 1kg at his maximum.
 
-Question 1.2.3 : $theta 1 = -175degree$ to $175 degree$
-$theta 2 = -70degree$ to $90 degree$
-$theta 3 = -135degree$ to $70 degree$
-$theta 4 = -170degree$ to $170 degree$
-$theta 5 = -115degree$ to $115 degree$
-$theta 6 = -720degree$ to $720 degree$
+One added observation done during the testing phase is that the robot is super quiet comparing to others robot we worked with.
 
-Question 1.2.4 : /worldFrame x: 329.2652 mm
-y: 329.2652 mm
-z: 464.4371 mm
-yes, even in a plane
+*Question 1.2.3 :*
+
+The ranges of each joint measured are presented in the table @tab:range-motion-joint below. 
+
+#figure(
+  table(
+    columns: 3,
+    align: center,
+    stroke: 0.5pt,
+[*Joint*], [*Min*], [*Max*],
+  [$theta_1$], [$-175 degree$], [$175 degree$],
+  [$theta_2$], [$-70 degree$], [$90 degree$],
+  [$theta_3$], [$-135 degree$], [$70 degree$],
+  [$theta_4$], [$-170 degree$], [$170 degree$],
+  [$theta_5$], [$-115 degree$], [$115 degree$],
+  [$theta_6$], [$-720 degree$], [$720 degree$], 
+  ),
+  caption: [Ranges of motion of each joint]
+)<tab:range-motion-joint>
+
+
+*Question 1.2.4*
+
+To the worldFrame the far away the TCP can move is:
+- 329.2652 mm in x direction
+- 329.2652 mm in y direction
+- 464.4371 mm in z direction
+
+Yes the TCP can be oriented along the three axis due to the 6 degrees of freedom. 3 are used to move the tcp in the space x-y-z and the others 3 are used to orient the TCP as we want.
 
 = Session 1: Safety, Jogging & Python Socket Interface
 

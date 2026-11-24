@@ -26,3 +26,5 @@
 #include "contenu/4_Session3_Repeatability.typ"
 #include "contenu/5_Conclusion.typ"
 #include "contenu/annexe.typ"
+
+#bibliography("bibliographie.bib")
