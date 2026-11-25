@@ -16,7 +16,7 @@ import time
 
 #%% Create a Meca500 object and initialize the robot
 print('Connecting...')
-meca = Meca500(ipAddress="192.168.0.100")
+meca = Meca500(ipAddress="192.168.0.101")
 
 print('Activating...')
 meca.activate()
