@@ -33,3 +33,6 @@ docs/examples/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Typst generated PDFs (only in report/, preserves docs/*.pdf)
+report/*.pdf
