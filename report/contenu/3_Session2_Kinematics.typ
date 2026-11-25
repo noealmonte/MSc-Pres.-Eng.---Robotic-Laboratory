@@ -33,4 +33,4 @@ $ Theta = [theta_1, theta_2, theta_3, theta_4, theta_5, theta_6] $
 
 The six elements of the cartesian space array $thin""^B X$ are:
 
-$ ""^B X=  $
+$ ""^B X = [x, y, z, alpha, beta, gamma]^T $

@@ -22,7 +22,7 @@
 
 #include "contenu/1_Introduction.typ"
 #include "contenu/2_Session1_Jogging_Safety.typ"
-// #include "contenu/3_Session2_Kinematics.typ"
+#include "contenu/3_Session2_Kinematics.typ"
 #include "contenu/4_Session3_Repeatability.typ"
 #include "contenu/5_Conclusion.typ"
 #include "contenu/annexe.typ"
