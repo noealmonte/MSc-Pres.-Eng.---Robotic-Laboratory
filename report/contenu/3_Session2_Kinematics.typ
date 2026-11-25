@@ -1,10 +1,10 @@
-= Session 2: Forward Kinematics & Tool Center Point (TCP)
+= Session 2 IA: Forward Kinematics & Tool Center Point (TCP)
 
 == Coordinate Frame Definitions
 To establish the geometric relationship between the robot base frame ${B}$ and the end-effector tool frame ${T}$, coordinate frames are assigned according to the standard robotics convention.
 
 $
-  ^0 T_6 = A_1(theta_1) dot A_2(theta_2) dot A_3(theta_3) dot A_4(theta_4) dot A_5(theta_5) dot A_6(theta_6)
+  0 T_6 = A_1(theta_1) dot A_2(theta_2) dot A_3(theta_3) dot A_4(theta_4) dot A_5(theta_5) dot A_6(theta_6)
 $
 
 == Symbolic Kinematics with SymPy
@@ -14,7 +14,7 @@ Symbolic derivation was implemented in Python using the `sympy` library. Homogen
 The laser tool mounted on the flange introduces a linear offset along the $Z_6$ axis:
 
 $
-  ^6 T_("TCP") = mat(
+  6 T_("TCP") = mat(
     1, 0, 0, 0;
     0, 1, 0, 0;
     0, 0, 1, d_z;
@@ -23,3 +23,14 @@ $
 $
 
 Where $d_z = 264 "mm"$ according to the mechanical drawing (`LaserTool.pdf`).
+
+
+= Session 2 Flo
+
+== Point 2.1
+The six elements of the joint space array are:
+$ Theta = [theta_1, theta_2, theta_3, theta_4, theta_5, theta_6] $
+
+The six elements of the cartesian space array $thin""^B X$ are:
+
+$ ""^B X=  $
